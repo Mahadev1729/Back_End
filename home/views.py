@@ -9,7 +9,7 @@ def home(request):
         {"name":"Mahadev","age":34},
         {"name":"Akash","age":44},
         {"name":"vinod","age":38},
-        {"name":"Sandeep","age":45},
+        {"name":"Sandeep","age":15},
     ]
     #Context
     
