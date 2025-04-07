@@ -7,5 +7,5 @@ def home(request):
     return HttpResponse("Hey! I'm Mahadev")
 
 def admin_panel(request):
-    return HttpResponse("This is admin pannel")
+    return HttpResponse("""<h1>This is admin pannel</h1>""")
 
