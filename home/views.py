@@ -5,3 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     return HttpResponse("Hey! I'm Mahadev")
+
+def admin_panel(request):
+    return HttpResponse("This is admin pannel")
+
