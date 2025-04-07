@@ -18,10 +18,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from home.views import *
-from admin_panel.views import *
+
 
 urlpatterns = [
     path('',home,name="home"),
-    path('admin_panel/',admin_panel,name="Admin"),
+   
     path("admin/", admin.site.urls),
 ]
