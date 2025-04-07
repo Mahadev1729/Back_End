@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>django tutorial</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>HTML syntax</h1>
+    {{peoples}}
+
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>name</th>
+            <th>Age</th>
+        </tr>
+        {% for people in peoples %}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{people.name}}</td>
+            <td>{{people.age}}</td>
+        </tr>
+        {% endfor %}
+       
+    </table>
+    <script>
+        console.log("Hey Django")
+    </script>
 </body>
 </html>
