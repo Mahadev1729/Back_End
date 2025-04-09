@@ -16,5 +16,5 @@ def home(request):
     return render(request,"index.html",context={'peoples':peoples})
 
 def admin_panel(request):
-    return HttpResponse("""<h1>This is admin pannel</h1>""")
+    return render(request,"admin_a.html")
 
