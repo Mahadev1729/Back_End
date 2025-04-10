@@ -11,4 +11,13 @@ Django:
 
       all routing in url files
    # Models and Migrate
-      stored in models               
+      stored in models
+      cmd ro migrate:
+       python manage.py makemigrations
+       python manage.py migrate
+
+   # Django shell
+     is an interactive env  for working with django project
+
+     cmd: python manage.py shell
+     ![alt text](image.png)    
