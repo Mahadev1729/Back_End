@@ -5,7 +5,7 @@ from django.db import models # type: ignore
 class Students(models.Model):
     # id=models.AutoField()
     name=models.CharField(max_length=100)
-    age=models.IntegerField()
+    age=models.IntegerField(null=True,blank=True)
     email=models.EmailField()
     address=models.TextField(null=True,blank=True);
     image=models.ImageField()
