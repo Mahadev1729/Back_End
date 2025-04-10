@@ -12,5 +12,6 @@ class Students(models.Model):
     files=models.FileField()
     
     
+    
 class Product(models.Model):
     pass
